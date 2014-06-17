@@ -19,6 +19,8 @@
 		35E8D97D1950A20E00D0043E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E8D9651950A20D00D0043E /* UIKit.framework */; };
 		35E8D9851950A20E00D0043E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35E8D9831950A20E00D0043E /* InfoPlist.strings */; };
 		35E8D9871950A20E00D0043E /* tipcalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8D9861950A20E00D0043E /* tipcalculatorTests.m */; };
+		35E8D9981950A3C200D0043E /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E8D9961950A3C200D0043E /* TipViewController.m */; };
+		35E8D99B1950A4C600D0043E /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35E8D99A1950A4C600D0043E /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		35E8D9821950A20E00D0043E /* tipcalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tipcalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		35E8D9841950A20E00D0043E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35E8D9861950A20E00D0043E /* tipcalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcalculatorTests.m; sourceTree = "<group>"; };
+		35E8D9951950A3C200D0043E /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		35E8D9961950A3C200D0043E /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		35E8D99A1950A4C600D0043E /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				35E8D9711950A20E00D0043E /* AppDelegate.m */,
 				35E8D9731950A20E00D0043E /* Images.xcassets */,
 				35E8D9681950A20E00D0043E /* Supporting Files */,
+				35E8D9951950A3C200D0043E /* TipViewController.h */,
+				35E8D9961950A3C200D0043E /* TipViewController.m */,
+				35E8D99A1950A4C600D0043E /* TipViewController.xib */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E8D96C1950A20E00D0043E /* InfoPlist.strings in Resources */,
+				35E8D99B1950A4C600D0043E /* TipViewController.xib in Resources */,
 				35E8D9741950A20E00D0043E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E8D9721950A20E00D0043E /* AppDelegate.m in Sources */,
+				35E8D9981950A3C200D0043E /* TipViewController.m in Sources */,
 				35E8D96E1950A20E00D0043E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
